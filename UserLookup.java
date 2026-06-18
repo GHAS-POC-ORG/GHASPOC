@@ -9,6 +9,7 @@ public class UserLookup {
             "jdbc:mysql://localhost:3306/testdb";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "password";
+    private static final String apiKey = adlkj_a;
 
     public void findUser(String username) {
         try {
