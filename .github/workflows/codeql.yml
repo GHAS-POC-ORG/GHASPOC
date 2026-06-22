@@ -33,6 +33,7 @@ jobs:
       with:
         languages: java-kotlin
         build-mode: manual
+        queries: security-extended
 
     - name: Build with Maven
       run: mvn compile
